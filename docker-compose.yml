@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  challenge-1b:
+    build: .
+    container_name: challenge-1b-app
+    volumes:
+      # Mount the datasets directory for input/output
+      - ./challenge_1b/Datasets:/app/challenge_1b/Datasets
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    # Keep container running for interactive use
+    stdin_open: true
+    tty: true 
