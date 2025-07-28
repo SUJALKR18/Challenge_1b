@@ -52,7 +52,7 @@ def process_collection(collection_name: str, model_path: str = "thenlper/gte-sma
         collection_name (str): Name of the collection (e.g., "Collection_1")
         model_path (str): Path to the embedding model
     """
-    collection_path = os.path.join("Challenge_1b", collection_name)
+    collection_path = os.path.join("Datasets", collection_name)
     
     if not os.path.exists(collection_path):
         print(f"Error: Collection directory not found: {collection_path}")
@@ -165,14 +165,14 @@ def main():
     start_time = time.time()
     
     # Check if collection exists
-    collection_path = os.path.join("Challenge_1b", args.collection_name)
+    collection_path = os.path.join("Datasets", args.collection_name)
     if not os.path.exists(collection_path):
         print(f"Error: Collection '{args.collection_name}' not found at {collection_path}")
         print("Available collections:")
-        challenge_dir = "Challenge_1b"
-        if os.path.exists(challenge_dir):
-            for item in os.listdir(challenge_dir):
-                item_path = os.path.join(challenge_dir, item)
+        datasets_dir = "Datasets"
+        if os.path.exists(datasets_dir):
+            for item in os.listdir(datasets_dir):
+                item_path = os.path.join(datasets_dir, item)
                 if os.path.isdir(item_path) and item.startswith("Collection_"):
                     print(f"  - {item}")
         return
