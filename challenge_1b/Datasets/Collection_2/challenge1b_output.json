@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-28T21:54:58"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Change flat forms to fillable (Acrobat Pro)",
+            "importance_rank": 1,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "What happens if my request is declined?",
+            "importance_rank": 2,
+            "page_number": 16
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Steps to send in bulk",
+            "importance_rank": 3,
+            "page_number": 9
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "License deployment",
+            "importance_rank": 4,
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Resources",
+            "importance_rank": 5,
+            "page_number": 21
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Change flat forms to fillable (Acrobat Pro) \nYou can change a flat form to a fillable form by either using the Prepare Form tool or \nenabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool \nto fill in flat forms. \nInteractive form \nTo create an interactive form, use the Prepare Forms tool. See Create a form from an existing \ndocument. \nFlat form \nTo enable the Fill & Sign tools, from the hamburger menu (File menu in macOS) \nchoose Save As Other  > Acrobat Reader Extended PDF > Enable More Tools (includes \nForm Fill-in & Save). \nThe tools are enabled for the current form only. When you create a different form, redo this \ntask to enable Acrobat Reader users to use the tools.",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "Common questions \nI have multiple profiles associated with my Adobe account. How do I select which profile to \nsend a request from? \nIf you have multiple profiles associated with your organization-provided Adobe account, you \nmust first choose which profile to sign in with. Then, request a product from that profile. The \nrequest will be routed to the organization and administrators associated with that profile. \nWhat if I can’t find the option to request access to AI Assistant for Acrobat? \nIf you can't find the option to request access to a product, your administrator may not have \nenabled the option for your organization. Contact your administrator to learn more. \nWhat notifications do I receive if a request is approved, declined, or pending?  \nYou receive email notifications when an administrator responds to your request, when the \nrequest has been pending for 30 days, or when it expires after 60 days. Learn more about \nthe statuses and notifications. \nWhat happens if my request is declined?  \nIf your request is denied, you'll receive an email explaining why. Once declined, you can re-\nrequest AI Assistant for Acrobat from your organization. \nAdminister AI Assistant for enterprises \nAdobe's AI Assistant for enterprises extends generative AI features to Acrobat on the web, \nmobile, and desktop platforms. It provides centralized license management and enterprise-\nlevel technical support for adequate user support at scale.",
+            "page_number": 16
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Once a file is selected, the configuration page loads. \n3. Add participants: \n1. List the participants required. \n• \nThe Sign action is assigned by default. \n• \nThe Sign action allows the participant to enter field data and sign the \nagreement. \n• \nUp to 50 participants are supported. \n• \nEach participant listed receives their own agreement.     \n2. Enter recipient email addresses followed by commas, or copy and paste a list of \nemail addresses into the Email field. \n3. Configure participant authentication by clicking the key icon to the right of the \nparticipant. \n• \nEmail is the default authentication method for confirming the identity of each \nparticipant and is sufficient to obtain a legal signature in most cases. \nPassword authentication can be added to increase security. When configured, the participant \nmust enter the password before they can interact with the agreement.  \n4. . (Optional) Add yourself and/or CC'd parties \n• \nClick Add me to add yourself as a counter signer. • \nClick Add cc to add people you want to be copied when the agreement is sent \nand complete.",
+            "page_number": 9
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "License deployment \nYou can manage the deployment of Acrobat AI Assistant through the Adobe Admin Console. \nAs an admin, you must add users to the Admin Console using one of the methods described \nin Adobe Admin Console users. You can choose to either select the users to assign or create \nproduct profiles and assign users to the profiles. For more information, see Packaging apps via \nthe Admin Console. Once you assign AI Assistant for Acrobat, the users must restart Acrobat \nto see AI Assistant.",
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Set privileges and permissions for others \n• \nCertify a document while leaving portions of it available for form filling, signatures, or \ncomments \n• \nUse Acrobat Pro software to enable users of Reader 9 or later to sign with certificate \nIDs \n• \nUse Acrobat Standard or Pro to encrypt a PDF document with a certificate ID to restrict \nusage such as printing, editing, or copying \n \nWhat if my organization isn’t prepared to set up certificate-\nbased signatures? \nConsider signing up for Adobe Acrobat Sign online, the leader in e-signatures and web \ncontracting. With Acrobat Sign, you can get PDF, Microsoft Word, and other documents sent, \nsigned, and filed instantly. And best of all, Adobe hosts it securely, so your IT department \ndoesn’t have to do the work of setting up a signature infrastructure. \n \nResources \nAdobe Approved Trust List (AATL): The Adobe Approved Trust List is a program that allows \nmillions of users worldwide to create digital signatures that are trusted whenever the signed \ndocument is opened in Acrobat or Reader software. Check out the current members. \nAdobe Security and Privacy Portal: A good first stop for all things security and privacy at \nAdobe. \nCertified Document Services: Certified Document Services (CDS) was the predecessor to the \nAATL. \nContent Security Library: Extensive documentation on Adobe certificate signature \nadministration. \nManaging Digital IDs: Help pages for digital ID management. \nA certificate-based signature, like a conventional handwritten signature, identifies the person \nsigning a document. Unlike a handwritten signature, a certificate-based signature is difficult to \nforge because it contains encrypted information that is unique to the signer. It can be easily \nverified and informs recipients whether the document was modified after the signer initially \nsigned it. \nTo sign a document with a certificate-based signature, you must obtain a digital ID or create a \nself-signed digital ID in Acrobat or Acrobat Reader. The digital ID contains a private key and a \ncertificate with a public key, and more. The private key is used to create the certificate-based",
+            "page_number": 21
+        }
+    ]
+}
